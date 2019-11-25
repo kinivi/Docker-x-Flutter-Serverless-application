@@ -1,0 +1,47 @@
+[debug] [2019-10-30T09:00:13.500Z] ----------------------------------------------------------------------
+[debug] [2019-10-30T09:00:13.502Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-10-30T09:00:13.502Z] CLI Version:   7.6.2
+[debug] [2019-10-30T09:00:13.503Z] Platform:      darwin
+[debug] [2019-10-30T09:00:13.503Z] Node Version:  v10.16.3
+[debug] [2019-10-30T09:00:13.503Z] Time:          Wed Oct 30 2019 11:00:13 GMT+0200 (Eastern European Standard Time)
+[debug] [2019-10-30T09:00:13.503Z] ----------------------------------------------------------------------
+[debug] [2019-10-30T09:00:13.503Z] 
+[debug] [2019-10-30T09:00:13.511Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-30T09:00:13.511Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/kinivi/Documents/projects/mlab_web/build/web
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-10-30T09:00:38.534Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-30T09:00:38.536Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-30T09:00:39.162Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-30T09:00:39.174Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-10-30T09:00:41.082Z] <<< HTTP RESPONSE 200
+[info] i  Using project mobile-lab-9a057 (Mobile Lab)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-10-30T09:02:05.548Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-10-30T09:02:06.921Z] <<< HTTP RESPONSE 200
+[info] i  Skipping write of public/index.html
